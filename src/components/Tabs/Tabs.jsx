@@ -1,6 +1,6 @@
 export const Tabs = ({ tabs, activeTabId, onTabSelected }) => {
   return (
-    <ul>
+    <ul className="tabs">
       {tabs.map(tab => (
         <li
           data-cy="Tab"
